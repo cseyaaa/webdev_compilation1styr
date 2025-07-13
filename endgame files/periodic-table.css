@@ -1,0 +1,209 @@
+table {
+    width: 98%;
+    table-layout: fixed;
+    border-collapse: collapse; 
+    max-width: 1500px; 
+    margin: auto;
+}
+th, td {
+    padding: 5px;
+    font-family:  'Inconsolata', serif;
+    font-weight: 700;
+    text-align: left;
+}
+.main-container {
+    width: 100%;
+    background-color: #FDF8D5;
+    margin: auto;
+    padding-bottom: 40px;
+    position: relative;
+    padding-top: 20px;
+    max-width: 1500px;
+} 
+.title {
+    color:white; 
+    text-align: center; 
+    font-family: 'prompt'; 
+    font-size: 50px; 
+    letter-spacing: 10px;
+}
+.title mark {
+    background-color: #1C1C1C; 
+    color: white; 
+    border-radius: 10px; 
+    line-height: 2; 
+    padding: 20px;
+}
+.name {
+    font-family: 'Sour Gummy', serif; 
+    font-size: 20px;
+}
+.name mark {
+    background-color: #1C1C1C; 
+    color: white; 
+    border-radius: 10px; 
+    padding: 20px; 
+    position: absolute; 
+    top: 8%; 
+    left: 8%;
+}
+.element-box {
+    width: 60px;
+    height: 25px;
+    border: 1px solid black;
+    position: absolute;
+}
+/* Positioning for the element boxes */
+.box1 { background-color: #F1BFC0; top: 21%; left: 20%; }
+.box2 { background-color: #8FA96D; top: 25%; left: 20%; }
+.box3 { background-color: #B7A7A9; top: 29%; left: 20%; }
+.box4 { background-color: #F6ECE3; top: 33%; left: 20%; }
+.box5 { background-color: #97D4F1; top: 37%; left: 20%; }
+.box6 { background-color: #A55C56; top: 21%; left: 43%; }
+.box7 { background-color: #D2EFB6; top: 25%; left: 43%; }
+.box8 { background-color: #FFD95E; top: 29%; left: 43%; }
+.box9 { background-color: #9B86A7; top: 33%; left: 43%; }
+.box10 { background-color: #D1947D; top: 37%; left: 43%; }
+
+/* Category names */
+.category {
+    width: auto;
+    height: 25px;
+    font-family: 'Sour Gummy', serif;
+    font-size: 18px;
+    position: absolute;
+}
+.left-column { left: 25%; }
+.right-column { left: 48%; }
+
+.cat1 { top: 21.2%; }
+.cat2 { top: 25.2%; }
+.cat3 { top: 29.2%; }
+.cat4 { top: 33.2%; }
+.cat5 { top: 37.2%; }
+
+/* Atomic details */
+.atomic-detail {
+    width: auto;
+    height: 25px;
+    font-family: 'Sour Gummy', serif;
+    font-size: 14px;
+    position: absolute;
+}
+
+.atomic-number { top: 9.8%; left: 72.5%; text-align: center; line-height: 1; }
+.atomic-weight { top: 19.5%; left: 70%; }
+.atomic-name { top: 16.9%; left: 73.5%; }
+.atomic-symbol { top: 14%; left: 72.5%; }
+
+/* Arrows */
+.arrow {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 76.5%;
+}
+.arrow1 { top: 16.5%; }
+.arrow2 { top: 13.2%; }
+.arrow3 { top: 19.5%; }
+.arrow4 { top: 9.8%; }
+
+/* Element display box */
+.element-display {
+    width: 110px;
+    height: 110px;
+    background-color: #1C1C1C;
+    position: absolute;
+    top: 8%;
+    left: 79%;
+    border-radius: 10%;
+    padding: 20px;
+    color: white;
+    font-family: 'Sour Gummy', serif;
+    text-align: center;
+}
+
+.element-display p {
+    margin: 0;
+}
+
+.element-number { text-align: left; font-size: 20px; }
+.element-symbol { font-size: 30px; }
+.element-name { line-height: 1.5; font-size: 18px; }
+
+.button {
+    background: black;
+    color: white; 
+    padding: 10px; 
+    margin-left: 1300px;
+}
+
+/* Element Number in the table */
+.vertical-line-number {
+    text-align: right; 
+    font-family: 'Source Code Pro', serif; 
+    font-size: 10px; 
+    font-weight: 500; 
+    padding:20px;
+}
+.horizontal-line-number {
+    text-align: center; 
+    font-family: 'Source Code Pro', serif; 
+    font-size: 10px; 
+    font-weight: 500; 
+    padding:20px
+}
+.element-name-weight{
+    font-size: 5px; 
+    text-align: center
+}
+.nonmetals {
+    font-size: 20px; 
+    border: 1px solid black; 
+    background-color: #FFD95E;
+}
+.noble-gases {
+    font-size: 20px; 
+    border: 1px solid black; 
+    background-color: #D1947D;
+}
+.alkali-metals {
+    font-size: 20px; 
+    border: 1px solid black; 
+    background-color: #F1BFC0;
+}
+.alkaline-earth-metals {
+    font-size: 20px; 
+    border: 1px solid black; 
+    background-color: #8FA96D;
+}
+.metalloids {
+    font-size: 20px; 
+    border: 1px solid black; 
+    background-color: #D2EFB6;
+}
+.halogens {
+    font-size: 20px; 
+    border: 1px solid black; 
+    background-color: #9B86A7;
+}
+.post-transition-metals {
+    font-size: 20px; 
+    border: 1px solid black; 
+    background-color: #A55C56
+}
+.transition-metals {
+    font-size: 20px; 
+    border: 1px solid black; 
+    background-color: #97D4F1
+}
+.lanthanides {
+    font-size: 20px; 
+    border: 1px solid black; 
+    background-color: #B7A7A9
+}
+.actinides {
+    font-size: 20px; 
+    border: 1px solid black; 
+    background-color: #F6ECE3
+}

@@ -1,0 +1,251 @@
+body {
+    max-width: 100%; 
+    background-color: #07090f;
+}
+
+@media (orientation: landscape) { 
+    .header {
+        width: 100%; 
+        height: 40vh;
+    }
+    .name-and-year{
+        font-family: 'Sixtyfour', serif; 
+        font-weight: 400; 
+        color: #9873ba; 
+        font-size: 7vh; 
+        padding-left: 2.5vh;
+    }
+
+    /* -------------------- Introduction -------------------- */
+    .introduction-container{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .introduction-container div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+    }
+    .intro-c1-container {
+        width: 40%;
+        margin-top: 1.5vh;
+    }
+    .intro-img1 {
+        width: 100%;
+        height: 55vh;
+    }
+    .intro-c2-container {
+        width: 30%; 
+        margin-top: 1.5vh;
+    }
+    .intro-img2 {
+        width: 95%;
+        height: 30vh; 
+    }
+    .intro-c2-text-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .meddle-about-lyrics1 {
+        font-family: 'Courier Prime', serif; 
+        color: #9873ba; 
+        align-self: self-end; 
+        text-align: right;
+        padding: 1.5vh;
+    }
+    .meddle-about-lyrics2 {
+        font-family: 'Courier Prime', serif; 
+        color: #9873ba; 
+        align-self: self-start; 
+        text-align: left;
+        padding: 1.5vh;
+    }
+    .intro-img3 {
+        margin-top: 1.5vh;
+        width: 20%; 
+        height: 55vh;
+    }
+    .femme-fatale {
+        font-family: 'Courier Prime', serif; 
+        color: #9873ba; 
+        text-align: left; 
+        width: 10%; 
+        font-size: 0.5vh; 
+        padding: 1.5vh; 
+        padding-left: 2.5vh;
+        margin-top: 3vh;
+        text-align: justify;
+    }
+
+    /* -------------------- CV and Calendar -------------------- */
+    .CV-and-Calendar-container {
+        display: flex; 
+        flex-direction: row;
+    }
+    .CV-container {
+        text-align: left;
+    }
+    .CV-title {
+        font-family: 'Rubik Glitch', serif; 
+        font-weight: 10; 
+        font-size: 7vh; 
+        letter-spacing: 1vh; 
+        color: #9873ba; 
+        padding-left: 3vh;
+    }
+    .CV-date {
+        font-family: 'Courier Prime', serif; 
+        color: #9873ba; 
+        padding-left: 3vh;
+    }
+    .CV-Calendar-cover {
+        width: 45vh; 
+        height: 45vh; 
+        margin: 3vh;
+    }
+    .calendar-title {
+        font-family: 'Rubik Glitch', serif; 
+        font-weight: 10; 
+        font-size: 7vh; 
+        letter-spacing: 0.75vh; 
+        color: #9873ba; 
+        text-align: left; 
+        padding-right: 3vh;
+    }
+    .calendar-date {
+        font-family: 'Courier Prime', serif; 
+        color: #9873ba; 
+        text-align: right; 
+        padding-right: 3.5vh;
+    }
+
+    /* -------------------- Periodic Table -------------------- */
+    .periodic-container {
+        display: flex;
+    }
+    .design-flower {
+        width: 40vh; 
+        height: 40vh; 
+        margin: 2vh; 
+        padding-right: 20vh; 
+        margin-top: 20vh; 
+        margin-left: 5vh;
+    }
+    .periodic-title {
+        font-family: 'Rubik Glitch', serif; 
+        font-weight: 10; 
+        font-size: 90px; 
+        letter-spacing: 5px; 
+        color: #9873ba; 
+        text-align: left; 
+        padding-left: 30px;
+    }
+    .periodic-date {
+        font-family: 'Courier Prime', serif; 
+        color: #9873ba; 
+        text-align: left; 
+        padding-left: 30px; 
+        margin-top: -30px;
+    }
+    .periodic-cover {
+        width: 500px; 
+        height: 400px; 
+        margin: 20px;
+    }
+
+    /* -------------------- Recipe, Registration Form, and POS -------------------- */
+    .recipe-registration-pos-container {
+        display: flex;
+    }
+    .rrp-cover {
+        width: 800px; 
+        height: 300px; 
+        margin: 20px;
+    }
+    .rrp-title {
+        font-family: 'Rubik Glitch', serif; 
+        font-weight: 10; 
+        font-size: 50px; 
+        letter-spacing: 5px; 
+        color: #9873ba; 
+        text-align: left; 
+        padding-right: 30px;
+    }
+    .rrp-date {
+        font-family: 'Courier Prime', serif; 
+        color: #9873ba; 
+        text-align: left; 
+        padding-right: 30px;
+    }
+
+    /* -------------------- Inline, Internal, and External CSS -------------------- */
+    .css-title {
+        font-family: 'Rubik Glitch', serif; 
+        font-weight: 10; 
+        font-size: 50px; 
+        letter-spacing: 5px; 
+        color: #9873ba; 
+        padding-left: 30px;
+    }
+    .CCPP-container {
+        display: flex;
+    }
+    .cv-inline-container {
+        width: 25%; 
+        margin-top: 200px;
+    }
+    .calendar-internal-container {
+        width: 25%; 
+        margin-top: 235px;
+    }
+    .periodic-external-container {
+        width: 25%; 
+    }
+    .pos-mixed-container {
+        width: 25%; 
+        margin-top: 235px;
+    }
+    .CCPP-title {
+        font-family: 'Rubik Glitch', serif; 
+        font-weight: 10; 
+        font-size: 30px; 
+        letter-spacing: 5px; 
+        color: #9873ba; 
+        text-align: center; 
+        padding-right: 30px;
+    }
+    .CCPP-date {
+        font-family: 'Courier Prime', serif; 
+        color: #9873ba; 
+        text-align: center; 
+        padding-right: 30px;
+    }
+    .ccp-cover {
+        width: 350px; 
+        height: 300px; 
+        margin: 20px;
+    }
+    .periodic-external-cover {
+        width: 350px; 
+        height: 500px; 
+        margin: 20px;
+    }
+
+
+}
+
+@media (orientation: portrait) { 
+    .introduction-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .intro-img1 {
+        flex: 1 1 50%;
+        max-width: 1vh; 
+        flex: 1;
+    }
+}
